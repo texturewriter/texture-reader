@@ -1,0 +1,28 @@
+.texture-theme-container {
+    /* default theme */
+    & {
+        background-color: #d9dedf;
+        color: #5d400d;
+        font-family: "Noto Serif", serif;
+    }
+
+    &.texture-font-slabo-27px {
+        font-family: "Slabo 27px", serif;
+    }
+
+    &.texture-font-noto-serif {
+        font-family: "Noto Serif", serif;
+    }
+
+    &.texture-font-abel {
+        font-family: "Abel", sans-serif;
+    }
+
+    &.texture-font-archivo-narrow {
+        font-family: "Archivo Narrow", sans-serif;
+    }
+
+    &.texture-font-rambla {
+        font-family: "Rambla", sans-serif;
+    }
+}

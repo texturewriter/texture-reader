@@ -1,0 +1,162 @@
+.texture-theme-container {
+    .actions {
+        bottom: 30px;
+        font-size: 30px;
+        left: 0;
+        min-height: 80px;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+    }
+
+    .verbs {
+        margin: 0 auto;
+        max-width: 1024px;
+
+        /* make the top row have 3 items when the bottom row has 2 or 3 so that it's visually more balanced */
+        &[data-verbs-amount="5"],
+        &[data-verbs-amount="6"],
+        &[data-verbs-amount="9"] {
+            max-width: 800px;
+        }
+
+        .verb-row {
+            height: 65px;
+            position: relative;
+        }
+
+        .verb-cell {
+            display: inline-block;
+            height: 40px;
+            line-height: 1;
+            margin: 10px;
+            position: relative;
+            text-align: center;
+            user-select: none;
+            vertical-align: top;
+            width: 240px;
+        }
+
+        .verb {
+            background-color: white;
+            border-radius: 3px;
+            border: 1px solid gray;
+            box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.75);
+            box-sizing: content-box;
+            cursor: move;
+            display: inline-block;
+            height: 30px;
+            left: 0;
+            min-height: 30px;
+            padding: 5px 15px;
+            position: relative;
+            top: 0;
+            transition: opacity 1s;
+            user-select: none;
+            vertical-align: middle;
+            width: 200px;
+        }
+    }
+
+    .next-page-actions {
+        opacity: 1;
+
+        .next-page-button {
+            all: unset;
+            bottom: 10px;
+            cursor: pointer;
+            padding: 10px;
+            position: absolute;
+            right: 100px;
+            width: 30px;
+
+            .interaction-area {
+                animation: 2s ease-out 0s infinite normal none running pulsate;
+                background-color: rgb(255, 255, 255);
+                border-radius: 30px;
+                display: block;
+                height: 47.5px;
+                position: absolute;
+                width: 50px;
+            }
+
+            .arrow {
+                background-color: rgba(255, 255, 255, 0.5);
+                border-color: rgb(68, 68, 68);
+                border-image: initial;
+                border-radius: 50px;
+                border-style: solid;
+                border-width: 1px;
+                color: rgb(68, 68, 68);
+                display: block;
+                font-size: 30px;
+                font-weight: bold;
+                left: -1px;
+                padding: 5px 0 1px 1px;
+                position: relative;
+                text-align: center;
+                width: 49px;
+                height: 40px;
+            }
+        }
+    }
+
+    .restart-story {
+        button.restart-story-button {
+            all: unset;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 30px;
+            border: 1px solid #444;
+            color: #444;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 30px;
+            font-style: italic;
+            padding: 5px 25px;
+            position: relative;
+            text-align: center;
+            top: 15px;
+        }
+
+        .icon {
+            display: inline-block;
+            transform: scale(-1, 1);
+        }
+    }
+
+    @media (max-width: 880px) {
+        .verbs {
+            font-size: 20px;
+        }
+
+        .verb {
+            min-height: 20px;
+            width: 120px;
+        }
+
+        .verb-row {
+            height: 55px;
+        }
+    }
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(0.1, 0.1);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        transform: scale(1.2, 1.2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.2, 1.2);
+        opacity: 0;
+    }
+}

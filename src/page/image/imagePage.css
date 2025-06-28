@@ -1,0 +1,40 @@
+.texture-theme-container {
+    .image-page {
+        cursor: pointer;
+
+        .titles {
+            height: auto;
+            text-align: center;
+
+            .title-text {
+                font-size: 50px;
+            }
+
+            .subtitle-text {
+                font-size: 30px;
+            }
+        }
+
+        .illustration-image {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            bottom: 150px;
+            left: 0;
+            position: fixed;
+            top: 250px;
+            width: 100%;
+        }
+
+        .illustration-caption {
+            bottom: 100px;
+            display: block;
+            font-size: 25px;
+            font-style: italic;
+            left: 0;
+            position: fixed;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}

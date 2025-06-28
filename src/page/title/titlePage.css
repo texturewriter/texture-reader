@@ -1,0 +1,40 @@
+.texture-theme-container {
+    .titlepage {
+        .titlepage-title {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 0.2em;
+            margin-top: 20vh;
+            text-align: center;
+        }
+
+        .titlepage-subtitle {
+            font-size: 30px;
+            font-weight: normal;
+            margin-top: 0;
+            text-align: center;
+            text-indent: 0;
+        }
+
+        .drag-icon {
+            position: fixed;
+        }
+
+        .drag-icon.finger-up {
+            opacity: 0.8;
+        }
+
+        .drag-icon.finger-down {
+            opacity: 0.3;
+        }
+
+        .texture-credits {
+            bottom: 10px;
+            font-size: 15px;
+            font-style: italic;
+            position: fixed;
+            right: 20px;
+            z-index: 10;
+        }
+    }
+}

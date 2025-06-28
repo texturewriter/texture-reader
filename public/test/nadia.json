@@ -1,0 +1,2001 @@
+{
+    "ifid": "c3044be5-9815-7a33-084d-8e7f5ce917f0",
+    "user": "5726541e57e7c44b0ef4d451",
+    "startpage": "603cf005-cb3a-d358-9afb-f19ad17c1471",
+    "savefile": 2,
+    "modified": "2016-09-17T17:03:13.606Z",
+    "created": "2016-04-26T13:48:12.636Z",
+    "blurb": "Being human all the time is boring.",
+    "author": "Jim Munroe",
+    "name": "Nadia's Late",
+    "allowDownload": true,
+    "deleted": false,
+    "cover": {
+        "enabled": true,
+        "subtitle": "A [story] by Jim Munroe",
+        "verb": "play"
+    },
+    "pages": [
+        {
+            "name": "Start",
+            "id": "603cf005-cb3a-d358-9afb-f19ad17c1471",
+            "events": {
+                "exit": {
+                    "timer": { "count": null, "target": null },
+                    "unsetFlags": [],
+                    "setFlags": []
+                },
+                "enter": { "unsetFlags": [], "setFlags": [] }
+            },
+            "verbs": [
+                {
+                    "id": "efb59c4c-e831-388d-a6ad-9174232eb987",
+                    "name": "become"
+                }
+            ],
+            "actions": [
+                {
+                    "noun": "n41b01111-d894-9a18-8697-bb5913da42c7",
+                    "verb": "efb59c4c-e831-388d-a6ad-9174232eb987",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "e1ea6923-9371-95bf-8aa9-85afeb29f216"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "Yeah, why not... no one's watching. You slough off your human form like an itchy sweater and direct your essence into the blanket on the grass."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "n5b6b38b6-d620-668c-be4a-accfb694c6b5",
+                    "verb": "efb59c4c-e831-388d-a6ad-9174232eb987",
+                    "name": null,
+                    "behaviors": [
+                        {
+                            "turnTo": {
+                                "immediately": false,
+                                "page": "eab2580c-2b0e-7561-359a-48e437714c6b"
+                            },
+                            "name": "Default behavior",
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "text": "She'd texted to say she'd be a little late, and she knows where you're meeting... so why not slip into something a little more comfortable? Like a red plastic disc?",
+                                "placement": "replace"
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "bb6ccec8-54ef-be7e-b845-5a317c728ece",
+                    "verb": "efb59c4c-e831-388d-a6ad-9174232eb987",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "1478d256-0b86-c948-5dac-8d18360e7e2a"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "It wouldn't hurt to transform for just a few minutes, to stretch your legs... or, y'know, lids. Nadia was rarely on time."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "text": [
+                { "elem": "p" },
+                {
+                    "text": "You've",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "spread",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "out",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "picnic_blanket",
+                    "id": "n41b01111-d894-9a18-8697-bb5913da42c7",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "at",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "a",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "comfortable",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "distance",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "from",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "frisbee",
+                    "id": "n5b6b38b6-d620-668c-be4a-accfb694c6b5",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "throwers",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "You've",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "got",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "some",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "time",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "to",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "kill",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "before",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "Nadia",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "shows",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "up",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ", " },
+                {
+                    "text": "why",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "spend",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "it",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "being",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "human",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": "?" }
+            ]
+        },
+        {
+            "name": "blanket",
+            "id": "e1ea6923-9371-95bf-8aa9-85afeb29f216",
+            "events": {
+                "exit": {
+                    "timer": { "count": null, "target": null },
+                    "unsetFlags": [],
+                    "setFlags": []
+                },
+                "enter": { "unsetFlags": [], "setFlags": [] }
+            },
+            "verbs": [
+                {
+                    "id": "053ee403-706d-e7b5-6950-69adaead8cfc",
+                    "name": "become"
+                }
+            ],
+            "actions": [
+                {
+                    "noun": "n1324f42b-800c-a7e8-be2f-9853705d8c63",
+                    "verb": "053ee403-706d-e7b5-6950-69adaead8cfc",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "15b4821e-3c8d-0f1e-7cb9-c7735c2c9502"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "She rubs her hand through your fuzz and even lies down (oh!) as she waits but you are already becoming the earth, spreading through the planet like water through a sponge."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "n61700be0-1c06-684e-7049-74fea01cc063",
+                    "verb": "053ee403-706d-e7b5-6950-69adaead8cfc",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "a4b93ed1-2fba-9bff-286a-480180b921e9"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "You enjoy the feel of her body draped over your fuzzy surface for a few more blissful self, and then reincarnate in your human form: first the solid bones, then the wetter bits."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "e3052fa3-0379-8a6b-207e-b63aa432d80a",
+                    "verb": "053ee403-706d-e7b5-6950-69adaead8cfc",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "b58c7c81-4176-331d-2eaa-fa802f8a6c02"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "The transition starts with a floating feeling as your essence rises away from the blanket and stretches, dissolves, cloudifies..."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "n1562c590-9c75-d5f9-9773-54cff701737d",
+                    "verb": "053ee403-706d-e7b5-6950-69adaead8cfc",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "1478d256-0b86-c948-5dac-8d18360e7e2a"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "You slide from fuzzy and flat to hard and boxy."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "text": [
+                { "elem": "p" },
+                {
+                    "text": "You",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "are",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "blanket",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ", " },
+                {
+                    "text": "fuzzy",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "flat",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "pulled",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "across",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "slightly",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "curved",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "earth",
+                    "id": "n1324f42b-800c-a7e8-be2f-9853705d8c63",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "There's",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "a",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "tupperware_container",
+                    "id": "n1562c590-9c75-d5f9-9773-54cff701737d",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "on",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "you",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "Nadia",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "is",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "standing",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ", " },
+                {
+                    "text": "looking",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "around",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "for",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "your",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "human_self",
+                    "id": "n61700be0-1c06-684e-7049-74fea01cc063",
+                    "elem": "span"
+                },
+                { "text": ", " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "finally",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " (" },
+                {
+                    "text": "yes",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": "!) " },
+                {
+                    "text": "settles",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "down",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "on",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "you",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " }
+            ]
+        },
+        {
+            "name": "frisbee",
+            "id": "eab2580c-2b0e-7561-359a-48e437714c6b",
+            "events": {
+                "exit": {
+                    "timer": { "count": null, "target": null },
+                    "unsetFlags": [],
+                    "setFlags": []
+                },
+                "enter": { "unsetFlags": [], "setFlags": [] }
+            },
+            "verbs": [
+                {
+                    "id": "1d2376b4-a2cb-c85a-3cd2-f65caff5ee1f",
+                    "name": "become"
+                }
+            ],
+            "actions": [
+                {
+                    "noun": "n278848e1-2992-0981-ce20-1ea7c98fe287",
+                    "verb": "1d2376b4-a2cb-c85a-3cd2-f65caff5ee1f",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "b58c7c81-4176-331d-2eaa-fa802f8a6c02"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "As delightful as soaring through the air as a yellow plastic disc is, how much more so to be a diffuse gargantuan mass...? You would soon find out."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "n19dc9b71-2e2c-d9eb-f0b0-efb0aa0ec067",
+                    "verb": "1d2376b4-a2cb-c85a-3cd2-f65caff5ee1f",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "e1ea6923-9371-95bf-8aa9-85afeb29f216"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "You feel yourself soften, stretch, and flatten against the soft grassy ground."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "a73f2b07-949a-3258-2f62-5679da6e7a0c",
+                    "verb": "1d2376b4-a2cb-c85a-3cd2-f65caff5ee1f",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "15b4821e-3c8d-0f1e-7cb9-c7735c2c9502"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "It is a grounding of significant impact, going from a yellow disc to the totality of the planet, but not an unpleasant one."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "text": [
+                { "elem": "p" },
+                {
+                    "text": "Oh",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "god",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "it",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "is",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "ecstasy",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "this",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "soaring",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "aloft",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "through",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "air",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ", " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "clouds",
+                    "id": "n278848e1-2992-0981-ce20-1ea7c98fe287",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "above",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "grassy",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "earth",
+                    "id": "a73f2b07-949a-3258-2f62-5679da6e7a0c",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "below",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "making",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "it",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "hard",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "to",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "even",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "register",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "Nadia",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "arriving",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "on",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "blanket",
+                    "id": "n19dc9b71-2e2c-d9eb-f0b0-efb0aa0ec067",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "looking",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "around",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "for",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "you",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": "." }
+            ]
+        },
+        {
+            "name": "tupperware",
+            "id": "1478d256-0b86-c948-5dac-8d18360e7e2a",
+            "events": {
+                "exit": {
+                    "timer": { "count": null, "target": null },
+                    "unsetFlags": [],
+                    "setFlags": []
+                },
+                "enter": { "unsetFlags": [], "setFlags": [] }
+            },
+            "verbs": [
+                {
+                    "id": "c8c062ed-cae0-08d6-abe5-89c9fff6d219",
+                    "name": "become"
+                }
+            ],
+            "actions": [
+                {
+                    "noun": "n61b0293e-9ff1-ee07-0f40-de8b5c7dcd4e",
+                    "verb": "c8c062ed-cae0-08d6-abe5-89c9fff6d219",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "1478d256-0b86-c948-5dac-8d18360e7e2a"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "You attempt to inhabit the salad, but it's too organic, and you are pushed back into the tupperware."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "n2c32e3be-ad5a-218b-6241-2bcef29097be",
+                    "verb": "c8c062ed-cae0-08d6-abe5-89c9fff6d219",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "a4b93ed1-2fba-9bff-286a-480180b921e9"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": ["yuck"],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "Before you revert to your human form, you feel Nadia open you up and smell the salad -- she comes away with a sour look on her face and snaps the lid back into place. You become human, first the solid bones and then the wetter bits."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "n36c64713-c3eb-c73a-bc5d-325b55ab9d09",
+                    "verb": "c8c062ed-cae0-08d6-abe5-89c9fff6d219",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "e1ea6923-9371-95bf-8aa9-85afeb29f216"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "It is an especially easy transition as you just slide down from the container into the flattened fabric."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "text": [
+                { "elem": "p" },
+                {
+                    "text": "You",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "are",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "a",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "square",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "box",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "atop",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "a",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "blanket",
+                    "id": "n36c64713-c3eb-c73a-bc5d-325b55ab9d09",
+                    "elem": "span"
+                },
+                { "text": ", " },
+                {
+                    "text": "your",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "lid",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "keeping",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "your",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "pasta_salad",
+                    "id": "n61b0293e-9ff1-ee07-0f40-de8b5c7dcd4e",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "fresh",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "The",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "dressing",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "is",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "slightly",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "acidic",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "tickles",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "Nadia",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "is",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "peering",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "at",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "you",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "curiously",
+                    "id": "",
+                    "elem": "span"
+                },
+                {
+                    "text": ", even hungrily, "
+                },
+                {
+                    "text": "but",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "patiently",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "waits",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "for",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "your",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "human_self",
+                    "id": "n2c32e3be-ad5a-218b-6241-2bcef29097be",
+                    "elem": "span"
+                },
+                { "text": "." }
+            ]
+        },
+        {
+            "name": "earth",
+            "id": "15b4821e-3c8d-0f1e-7cb9-c7735c2c9502",
+            "events": {
+                "exit": {
+                    "timer": { "count": null, "target": null },
+                    "unsetFlags": [],
+                    "setFlags": []
+                },
+                "enter": { "unsetFlags": [], "setFlags": [] }
+            },
+            "verbs": [],
+            "actions": [],
+            "text": [
+                { "elem": "p" },
+                {
+                    "text": "At",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "very",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "furthest",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "periphery",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "of",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "your",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "consciousness",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "you",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "can",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "feel",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "Nadia",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "on",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "your",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "surface",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "But",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "it's",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "hard",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "to",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "pay",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "attention",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "when",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "there's",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "also",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "lava",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "massive",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "oceans",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "weather",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "systems",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": "." }
+            ]
+        },
+        {
+            "name": "cloud",
+            "id": "b58c7c81-4176-331d-2eaa-fa802f8a6c02",
+            "events": {
+                "exit": {
+                    "timer": { "count": null, "target": null },
+                    "unsetFlags": [],
+                    "setFlags": []
+                },
+                "enter": { "unsetFlags": [], "setFlags": [] }
+            },
+            "verbs": [],
+            "actions": [],
+            "text": [
+                { "elem": "p" },
+                {
+                    "text": "Surprisingly",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "you",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "can",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "feel",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "shape",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "of",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "yourself",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ", " },
+                {
+                    "text": "a",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "looming",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "fullness",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "that",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "is",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "more",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "satisfying",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "than",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "any",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "fullness",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "after",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "a",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "picnic",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "lunch",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "You",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "drift",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "away",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "slowly",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "slowly",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "slowly",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": "..." }
+            ]
+        },
+        {
+            "name": "human",
+            "id": "a4b93ed1-2fba-9bff-286a-480180b921e9",
+            "events": {
+                "exit": {
+                    "timer": { "count": null, "target": null },
+                    "unsetFlags": [],
+                    "setFlags": []
+                },
+                "enter": { "unsetFlags": [], "setFlags": [] }
+            },
+            "verbs": [
+                {
+                    "id": "a72bb581-02c9-cefc-7100-231fdfd55257",
+                    "name": "take"
+                }
+            ],
+            "actions": [
+                {
+                    "noun": "e980390c-5acd-b94d-2c20-d628733d4976",
+                    "verb": "a72bb581-02c9-cefc-7100-231fdfd55257",
+                    "behaviors": [
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "0fa91010-6530-f8c1-7e48-d93dc4b93197"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "You hold her hand and she bends forward to kiss you hello. It feels disconcertingly warm and soft, but the inanimate solidness of her teeth get you through it."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "noun": "n010b24dd-5016-0b80-d259-eb342947069f",
+                    "verb": "a72bb581-02c9-cefc-7100-231fdfd55257",
+                    "behaviors": [
+                        {
+                            "name": "Behavior 1",
+                            "turnTo": {
+                                "page": "0fa91010-6530-f8c1-7e48-d93dc4b93197"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "She pulls her hand back. You make a small plate for her, and she lies and says she likes it, which is disappointing on many levels."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": ["yuck"]
+                            }
+                        },
+                        {
+                            "name": "Default behavior",
+                            "turnTo": {
+                                "page": "0fa91010-6530-f8c1-7e48-d93dc4b93197"
+                            },
+                            "unsetFlags": [],
+                            "setFlags": [],
+                            "newParagraph": {
+                                "placement": "replace",
+                                "text": "You lean over and grab the tupperware. Nadia's hand drops and she smiles a sad smile."
+                            },
+                            "condition": {
+                                "connective": "or",
+                                "unsetFlags": [],
+                                "setFlags": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "text": [
+                { "elem": "p" },
+                {
+                    "text": "You",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "materialize",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "somewhere",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "unseen",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "sit",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "down",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "beside",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "her",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "Nadia",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "turns",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "to",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "you",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "happily",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "and",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "holds",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "out",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "her",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "hand",
+                    "id": "e980390c-5acd-b94d-2c20-d628733d4976",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "Your",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "stomach",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "rumbles",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "as",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "you",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "notice",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "the",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "pasta_salad",
+                    "id": "n010b24dd-5016-0b80-d259-eb342947069f",
+                    "elem": "span"
+                },
+                { "text": "." }
+            ]
+        },
+        {
+            "name": "ending",
+            "id": "0fa91010-6530-f8c1-7e48-d93dc4b93197",
+            "events": {
+                "exit": {
+                    "timer": { "count": null, "target": null },
+                    "unsetFlags": [],
+                    "setFlags": []
+                },
+                "enter": { "unsetFlags": [], "setFlags": [] }
+            },
+            "verbs": [],
+            "actions": [],
+            "text": [
+                { "elem": "p" },
+                {
+                    "text": "Your",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "mom",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "always",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "said",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "that",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "you'd",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "be",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "happier",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "with",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "someone",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "of",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "your",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "kind",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "Someone",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "rock",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "solid",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": ". " },
+                {
+                    "text": "Or",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "maybe",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "just",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "a",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": " " },
+                {
+                    "text": "rock",
+                    "id": "",
+                    "elem": "span"
+                },
+                { "text": "." }
+            ]
+        },
+        {
+            "name": "Page 8",
+            "id": "p2c83f54f-73f5-00b8-6c2c-a7d7545e2312",
+            "events": {
+                "exit": {
+                    "timer": { "count": null, "target": null },
+                    "unsetFlags": [],
+                    "setFlags": []
+                },
+                "enter": { "unsetFlags": [], "setFlags": [] }
+            },
+            "verbs": [],
+            "actions": [],
+            "text": []
+        }
+    ],
+    "genres": ["Surreal"],
+    "progressIndicator": "full",
+    "media": {
+        "cover": {
+            "medium": "e0ef4409abee6914141fd3516dce942e.medium.jpg",
+            "original": "e0ef4409abee6914141fd3516dce942e.original.jpg",
+            "thumbnail": "e0ef4409abee6914141fd3516dce942e.thumbnail.jpg"
+        }
+    },
+    "featured": true,
+    "theme": { "font": "abel", "textColor": "5d400d", "bgColor": "fbedd5" },
+    "library": "5cbac68ad4a46d6adc1b5978"
+}
