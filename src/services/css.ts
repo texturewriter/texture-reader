@@ -1,3 +1,5 @@
+export const CURSOR_OFFSET = 5;
+
 /**
  * Escape a URL and turn it into a url() property for use with CSS styles
  */
@@ -42,7 +44,7 @@ export const getElementDragOffset = (
     const { rect, leftMargin, topMargin } = rectAndMargins(element);
 
     return {
-        x: rect.width / 2 + leftMargin,
-        y: rect.height + topMargin + 10 // 10 px is the height of the speech bubble triangle
+        x: rect.width / 2 + leftMargin - 1,
+        y: rect.height + topMargin + 10 + CURSOR_OFFSET // 10 px is the height of the speech bubble triangle
     };
 };

@@ -7,7 +7,11 @@ import {
 } from "../services/layout";
 import Page from "../page/page";
 import type Action from "../actions";
-import { getElementDragOffset, getElementFixedPosition } from "../services/css";
+import {
+    CURSOR_OFFSET,
+    getElementDragOffset,
+    getElementFixedPosition
+} from "../services/css";
 
 import "./dragManager.css";
 
@@ -373,7 +377,7 @@ class DragManager {
         const nounRect = nounElement.getBoundingClientRect();
         this.snapPosition = {
             x: nounRect.left + nounRect.width / 2,
-            y: nounRect.top
+            y: nounRect.top + CURSOR_OFFSET
         };
 
         // change the verb element's text to match the action

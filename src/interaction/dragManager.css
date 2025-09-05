@@ -1,6 +1,6 @@
 .texture-theme-container {
     &.in-drag-action {
-        cursor: none;
+        cursor: crosshair;
     }
 
     .noun {
