@@ -146,7 +146,7 @@ class DragManager {
 
         // if the snap position is set use that instead of the actual coordinates
         if (this.snapPosition) {
-            this.pointerCoordinates = this.snapPosition;
+            this.pointerCoordinates.y = this.snapPosition.y;
         }
 
         this.moveVerbElement();
