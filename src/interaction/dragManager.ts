@@ -56,8 +56,8 @@ class DragManager {
     // Current pointer coordinates on the screen
     private pointerCoordinates: ScreenCoordinates = { x: 0, y: 0 };
 
-    // Where to snap the verb element when it's on top of a noun
-    private snapPosition: ScreenCoordinates | null = null;
+    // Where to snap the verb element vertically when it's on top of a noun
+    private snapPositionY: number | null = null;
 
     // Timer to store when the drag action started, for calculating if the action is a click or a drag
     private dragStartTime: number = 0;
@@ -145,8 +145,8 @@ class DragManager {
         }
 
         // if the snap position is set use that instead of the actual coordinates
-        if (this.snapPosition) {
-            this.pointerCoordinates.y = this.snapPosition.y;
+        if (this.snapPositionY !== null) {
+            this.pointerCoordinates.y = this.snapPositionY;
         }
 
         this.moveVerbElement();
@@ -282,7 +282,7 @@ class DragManager {
         // cleanup/zeroing
         this.verbElement = null;
         this.verbId = null;
-        this.snapPosition = null;
+        this.snapPositionY = null;
     }
 
     // Change the text of the verb and resize the new text to fit
@@ -375,10 +375,7 @@ class DragManager {
 
         // snap the verb to place on top of the noun
         const nounRect = nounElement.getBoundingClientRect();
-        this.snapPosition = {
-            x: nounRect.left + nounRect.width / 2,
-            y: nounRect.top + CURSOR_OFFSET
-        };
+        this.snapPositionY = nounRect.top + CURSOR_OFFSET;
 
         // change the verb element's text to match the action
         const actionText = this.getActionText(
@@ -407,7 +404,7 @@ class DragManager {
 
         // cleanup/zeroing
         this.nounId = null;
-        this.snapPosition = null;
+        this.snapPositionY = null;
     }
 }
 
