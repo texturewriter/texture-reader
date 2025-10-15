@@ -15,10 +15,6 @@ export const setTheme = (
     theme: TextureTheme | undefined,
     container: HTMLElement | string
 ) => {
-    if (!theme || typeof theme !== "object") {
-        return;
-    }
-
     const themeContainer: HTMLElement | null =
         typeof container === "string"
             ? document.querySelector(container)
@@ -34,6 +30,12 @@ export const setTheme = (
 
     themeContainer.classList.add("texture-theme-container");
 
+    containers.setThemeContainer(themeContainer);
+
+    if (!theme || typeof theme !== "object") {
+        return;
+    }
+
     if (theme.bgColor) {
         themeContainer.style.backgroundColor = "#" + theme.bgColor;
     }
@@ -45,6 +47,4 @@ export const setTheme = (
     if (theme.textColor) {
         themeContainer.style.color = "#" + theme.textColor;
     }
-
-    containers.setThemeContainer(themeContainer);
 };
