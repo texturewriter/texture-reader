@@ -15,7 +15,7 @@ interface TextHtmlElementSerialization {
 interface TextSpanSerialization {
     id?: string;
     elem?: "b" | "i" | "span";
-    text: string | TextElementSerialization[];
+    text?: string | TextElementSerialization[];
 }
 
 export type TextElementSerialization =
@@ -120,7 +120,7 @@ class TextPage extends Page {
                     } else {
                         span.textContent =
                             "text" in segment
-                                ? processStoryTextContent(segment.text)
+                                ? processStoryTextContent(segment.text ?? "")
                                 : "";
                     }
 

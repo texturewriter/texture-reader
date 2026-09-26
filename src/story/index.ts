@@ -19,7 +19,7 @@ const CURRENT_STORY_FORMAT_VERSION = 2;
 export interface TextureConfig {
     coverUrl?: string;
     disableUrlOptions?: boolean;
-    fromPage?: number;
+    fromPage?: string;
     showTitlePage?: boolean;
     storyContainer?: HTMLElement | string;
     themeContainer?: HTMLElement | string;
@@ -132,8 +132,13 @@ class TextureStory {
         this.bookSerialization = await storyDataLoader.getBook();
         this.validateBook();
 
-        const { coverUrl, showTitlePage, storyContainer, themeContainer } =
-            this.config;
+        const {
+            coverUrl,
+            fromPage,
+            showTitlePage,
+            storyContainer,
+            themeContainer
+        } = this.config;
 
         // Create the main HTML structure
         const containerElement = resolveStoryContainer(storyContainer);
@@ -158,7 +163,7 @@ class TextureStory {
         }
 
         this.restart(
-            this.book.startpage,
+            fromPage || this.book.startpage,
             showTitlePage !== false, // this makes the default value true if the option is omitted
             this.book.cover
         );
