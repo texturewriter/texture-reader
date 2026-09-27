@@ -21,7 +21,7 @@ describe("TextPage", () => {
             text: [
                 { elem: "p" },
                 { elem: "span", text: "hello" },
-                { text: " " },
+                { text: " ", elem: "span" },
                 { elem: "i", text: "world" }
             ],
             verbs: [{ id: "v1", name: "verb" }],

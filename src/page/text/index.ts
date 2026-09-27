@@ -8,19 +8,13 @@ import type { PageSerialization } from "../page";
 import type { VerbSerialization } from "../../verbs";
 import type TextureStory from "../../story";
 
-interface TextHtmlElementSerialization {
-    elem: "p" | "br";
-}
+export type ValidTag = "p" | "br" | "b" | "i" | "span";
 
-interface TextSpanSerialization {
+export interface TextElementSerialization {
     id?: string;
-    elem?: "b" | "i" | "span";
+    elem: ValidTag;
     text?: string | TextElementSerialization[];
 }
-
-export type TextElementSerialization =
-    | TextHtmlElementSerialization
-    | TextSpanSerialization;
 
 /**
  * The default content page type, text with verbs to interact with it

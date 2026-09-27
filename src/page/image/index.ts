@@ -21,13 +21,18 @@ class ImagePage extends Page {
     constructor(story: TextureStory, source: PageSerialization) {
         super(story);
 
-        this.imageUrl = source.imageUrl || "";
-        this.caption = source.imageCaption;
+        if (source.image?.picture?.type === "url") {
+            this.imageUrl = source.image.picture.file || "";
+        } else {
+            this.imageUrl = source.imageUrl || "";
+        }
+
+        this.caption = source.image?.caption || source.imageCaption;
         this.enterEvent = source.events?.enter;
         this.exitEvent = source.events?.exit;
         this.nextPage = source.nextPage;
-        this.subtitle = source.subtitle;
-        this.title = source.title;
+        this.subtitle = source.image?.subtitle || source.subtitle;
+        this.title = source.image?.title || source.title;
     }
 
     protected renderPage() {
@@ -84,6 +89,8 @@ class ImagePage extends Page {
         } else {
             captionElement.style.display = "none";
         }
+
+        containers.verbs.style.visibility = "hidden";
 
         const nextPage = this.nextPage;
 

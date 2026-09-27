@@ -6,7 +6,7 @@ import {
     processStoryTextContent
 } from "../../services/layout";
 import type TextureStory from "../../story";
-import Page from "../page";
+import Page, { type ImageFile } from "../page";
 import PageVerbs from "../../verbs";
 import containers from "../../layout/containers";
 import InteractionTutorial from "../../interaction/tutorial";
@@ -22,6 +22,7 @@ const NOUN_CLASS = "noun";
 export interface TitlePageSerialization {
     author?: string;
     enabled?: boolean;
+    picture?: ImageFile;
     subtitle?: string;
     verb?: string;
 }

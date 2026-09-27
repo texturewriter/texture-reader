@@ -10,6 +10,19 @@ import restartButtonTemplate from "./restartButton.template.html?raw";
 
 import "./page.css";
 
+export interface ImageFile {
+    file: string;
+    mimetype?: string;
+    type: "id" | "url" | "base64";
+}
+
+interface ImagePageProperties {
+    picture?: ImageFile;
+    caption?: string;
+    subtitle?: string;
+    title?: string;
+}
+
 export interface PageSerialization {
     id: string;
     actions: PageActionSerialization[];
@@ -18,14 +31,17 @@ export interface PageSerialization {
         enter?: PageEventSerialization;
         exit?: PageEventWithTimerSerialization;
     };
-    imageCaption?: string;
-    imageUrl?: string | null;
+    image?: ImagePageProperties;
     name: string;
     nextPage?: string | null;
-    subtitle?: string;
     text: TextElementSerialization[];
-    title?: string;
     verbs: VerbSerialization[];
+
+    /* legacy image page properties */
+    imageCaption?: string;
+    imageUrl?: string | null;
+    subtitle?: string;
+    title?: string;
 }
 
 export interface PageEventSerialization {

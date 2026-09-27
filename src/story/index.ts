@@ -151,15 +151,21 @@ class TextureStory {
         // Browser window title
         document.title = this.book.name;
 
-        // for testing read the cover from the URL
-        const coverLocation =
-            coverUrl ??
-            new URLSearchParams(window.location.search).get("cover");
+        if (this.bookSerialization.cover?.enabled) {
+            const serializedCover =
+                this.bookSerialization.cover.picture?.type === "url"
+                    ? this.bookSerialization.cover.picture.file
+                    : null;
 
-        // If the cover URL is set, show the cover page
-        if (coverLocation) {
-            const cover = new CoverPage(coverLocation);
-            await cover.show();
+            const coverLocation =
+                coverUrl ??
+                serializedCover ??
+                new URLSearchParams(window.location.search).get("cover");
+
+            if (coverLocation) {
+                const cover = new CoverPage(coverLocation);
+                await cover.show();
+            }
         }
 
         this.restart(

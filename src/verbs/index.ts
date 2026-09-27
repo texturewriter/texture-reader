@@ -18,6 +18,7 @@ class PageVerbs {
 
     public show(parent: HTMLElement) {
         parent.innerHTML = "";
+        parent.style.visibility = "visible";
 
         this.verbs.forEach(verb => {
             const verbElem = document.createElement("div");
