@@ -1,5 +1,6 @@
 import containers from "./containers";
 
+import "./main.css";
 import "./theme.css";
 
 export interface TextureTheme {

@@ -14,7 +14,7 @@ import layoutTemplate from "../layout/layout.template.html?raw";
 import StoryDataLoader from "./loader";
 
 // The maximum story format version that this reader can handle
-const CURRENT_STORY_FORMAT_VERSION = 2;
+const CURRENT_STORY_FORMAT_VERSION = 3;
 
 export interface TextureConfig {
     coverUrl?: string;
@@ -29,7 +29,7 @@ export interface BookSerialization {
     author?: string;
     blurb?: string;
     cover?: TitlePageSerialization; // this field is misnamed due to historical reasons
-    created?: string | number;
+    created?: Date | string | number;
     genres?: string[];
     hasCoverImage?: boolean;
     id?: string;
@@ -42,7 +42,7 @@ export interface BookSerialization {
             thumbnail: string;
         };
     };
-    modified?: string | number;
+    modified?: Date | string | number;
     name: string;
     pages: PageSerialization[];
     progressIndicator?: "none"; // deprecated
@@ -68,6 +68,10 @@ class TextureStory {
 
     // story flags
     public readonly flags: StoryFlags;
+
+    public get version(): number {
+        return this.bookSerialization?.savefile ?? 0;
+    }
 
     // current page
     private page: Page | null = null;

@@ -92,7 +92,11 @@ class ActionBehavior {
         // Increment the counter for the "after N actions" page exit condition
         this.story.incrementActionCount();
 
-        if (typeof behavior.newParagraph?.text === "string") {
+        const hasNewParagraphAction =
+            typeof behavior.newParagraph?.text === "string";
+        const hasNewNounTextAction = typeof behavior.changeNoun === "string";
+
+        if (hasNewParagraphAction && behavior.newParagraph) {
             const currentParagraphElement = nounElement.closest("p");
 
             if (!currentParagraphElement) {
@@ -146,10 +150,8 @@ class ActionBehavior {
             }
         }
 
-        const newNounText = behavior.changeNoun;
-
         // Changing the noun text
-        if (typeof newNounText === "string") {
+        if (hasNewNounTextAction) {
             asyncOperations
                 .then(() => fadeOutElement(nounElement))
                 .then(() => {
@@ -164,7 +166,7 @@ class ActionBehavior {
                         nounElement
                     );
                     const newSpan = newContentToDomNodes(
-                        newNounText,
+                        behavior.changeNoun || "",
                         nounElement
                     );
                     nounParent.replaceChild(
@@ -182,9 +184,17 @@ class ActionBehavior {
                 typeof behavior.turnTo === "string"
                     ? behavior.turnTo
                     : behavior.turnTo.page;
-            const immediately =
-                typeof behavior.turnTo === "object" &&
-                behavior.turnTo.immediately;
+
+            let immediately: boolean;
+
+            if (this.story.version === 2) {
+                immediately =
+                    (typeof behavior.turnTo === "object" &&
+                        behavior.turnTo.immediately) ??
+                    false;
+            } else {
+                immediately = !hasNewNounTextAction && !hasNewParagraphAction;
+            }
 
             if (newPageId) {
                 this.story.openPage(newPageId, immediately);

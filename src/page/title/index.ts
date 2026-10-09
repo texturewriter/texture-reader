@@ -22,7 +22,7 @@ const NOUN_CLASS = "noun";
 export interface TitlePageSerialization {
     author?: string;
     enabled?: boolean;
-    picture?: ImageFile;
+    picture?: ImageFile | null;
     subtitle?: string;
     verb?: string;
 }

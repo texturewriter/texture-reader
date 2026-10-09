@@ -51,9 +51,9 @@ export interface PageEventSerialization {
 
 export interface PageEventWithTimerSerialization
     extends PageEventSerialization {
-    timer: {
-        count: number | null;
-        target: string | null;
+    timer?: {
+        count?: number | null;
+        target?: string | null;
     };
 }
 
